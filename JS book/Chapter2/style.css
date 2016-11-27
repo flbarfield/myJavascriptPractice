@@ -1,0 +1,113 @@
+body {
+    background: url(images/hobart.jpg) no-repeat center;
+    background-size: cover;
+} 
+
+/*First Box*/
+
+#content {
+    text-align: center;
+    width: 85%;
+    margin-bottom: 5em;
+    background-color: white;
+    border-style: double;
+    border-width: .5em;
+    padding: 1em;
+    max-width: 441px;
+    max-height: 159px;
+    min-width: 313px;
+}
+
+#logo {
+    width: 70%;
+}
+
+#quote {
+    background-color: red;
+    float: right;
+    padding: .2em .5em;
+    font-size: .8em;
+    font-weight: bolder;
+    color: white;
+    margin-top: 2.3em;
+}
+
+#preview {
+    float: left;
+    margin-bottom:0;
+    margin-top: 2.1em;
+}
+
+#content p {
+    display: inline-block;
+}
+
+#example {
+    width: 100%
+}
+
+/*Second Box*/
+
+#content2 {
+    text-align: center;
+    width: 85%;
+    margin-bottom: 5em;
+    padding: 1em;
+    max-width: 441px;
+    max-height: 159px;
+    min-width: 313px;
+}
+
+#content h2 {
+    font-size: 50%;
+}
+
+#content2 img {
+    width: 50%;
+    height: 45%
+}
+
+#content2 a {
+    text-decoration: none;
+    background-color: black;
+    padding: .5em .7em;
+    border-radius: .5em;
+    color: goldenrod;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 60%;
+}
+
+#inner-box {
+    background-color: white;
+    border-style: double;
+    border-width: .5em;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 1em;
+}
+
+@media (min-width: 542px) {
+    #content, #content2 {
+        margin: 0 auto 5em auto;
+    }
+}
+
+@media (min-width: 1109px) {
+    #content, #content2 {
+        display: inline-block;
+    }
+    
+    #content {
+        float: left;
+    }
+    
+    #content2 {
+        float: right;
+    }
+    
+    #content2 img {
+        margin-top: -1em;
+        height: 50%
+    }
+}

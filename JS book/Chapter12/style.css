@@ -1,0 +1,46 @@
+.logo {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 1em 0;
+}
+
+#dynamic-filtering {
+    width: 80%;
+    margin: 2em auto;
+}
+
+.salary-count {
+    margin: 1em;
+    text-align: center;
+}
+
+.salary-count select {
+    margin-right: 2em;
+}
+
+.salary-count label {
+    margin-left: 2em;
+}
+
+#slider {
+    width: 20em;
+    margin: 0 auto;
+}
+
+#dynamic-filtering {
+    background-color: whitesmoke;
+    padding-bottom: .5em;
+}
+
+#dynamic-filtering table {
+    margin: 2em auto;
+}
+
+#dynamic-filtering th, td{
+    padding-right: 5em;
+}
+
+#dynamic-filtering th {
+    background-color: lightgray
+}

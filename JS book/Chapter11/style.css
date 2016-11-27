@@ -1,0 +1,249 @@
+body {
+    background-color: 979797;
+}
+
+div {
+    width: 100%;
+    max-width: 720;
+    margin: 0 auto;
+}
+
+/*ACCORDIAN STYLE*/
+
+#accordian {
+    text-align: center;
+    background-color: 979797;
+    padding-bottom: 5em;
+}
+
+#accordian img {
+    width: 50%;
+    max-width: 200px;
+    margin: 1em;
+}
+
+#accordian button {
+    display: block;
+    text-align: left;
+    width: 80%;
+    max-width: 450px;
+    margin: 0 auto;
+    padding: .2em;
+    color: white;
+    background-color: black;
+    border-style: hidden;
+    border-bottom-style: groove;
+}
+
+#accordian button:hover {
+    color: gray;
+}
+
+#accordian p {
+    width: 75%;
+    max-width: 425px;
+    margin: 0 auto;
+    padding: 2% 1.7%;
+    text-align: left;
+    background-color: white;
+    display: none;
+}
+
+/*TABBED PANEL STYLE*/
+
+#tabbedPanel {
+    text-align: center;
+    padding-bottom: 6.5em;
+}
+
+#tabbedPanel img {
+    display: block;
+    margin: 1em auto;
+    width: 100%;
+    max-width: 200px;
+}
+
+#tabContent {
+    width: 70%;
+    margin: 0 auto;
+    white-space: nowrap;
+    text-align: left;
+}
+
+#tabbedPanel button {
+    display: inline-block;
+    border-style: none;
+    background-color: black;
+    color: white;
+    padding: .2em .5em;
+}
+
+#tabbedPanel .selected {
+    background-color: white;
+    color: black;
+}
+
+.tabPanelInfo {
+    min-width: 258px;
+    margin: 0 auto;
+    background-color: white;
+    padding: .5em;
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+/*MODAL WINDOW*/
+
+#modalWindow {
+    padding-bottom: 5em;
+}
+
+#modalWindow #img1 {
+    display: block;
+    margin-left: 13%;
+    margin-bottom: -8%;
+}
+
+#modalWindow #img1:hover {
+    padding: .2em;
+    border-radius: 1.5em;
+    background-color: white;
+}
+
+#modalWindow #img2 {
+    display: block;
+    margin: 1em auto;
+}
+
+#modalWindow #img3 {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+
+#modalWindow #shareOptions {
+    background-color: rgba(0, 0, 0, .8);
+    width: 75%;
+    position: relative;
+    bottom: 25em;
+    display: none;
+}
+
+#modalWindow #img4 {
+    display: block;
+    max-width: 284px;
+    margin: 2em auto;
+    padding-top: 5em;
+/*    padding-bottom: 2em;*/
+}
+
+#shareOptions button {
+    margin: -5% 67% 7.5em;
+    color: rgb(252, 235, 229);
+    background-color: rgb(232, 139, 106);
+    border-radius: .2em;
+    white-space: nowrap;
+    font-size: 80%;
+}
+
+/*PHOTO VIEWER*/
+/*It's seems really difficult to center the new image while I'm defining every positioned element completely by percentages and having responsive design in mind. If I were to do this again I'd either define more things by EMs or use more concrete measurements and use breakpoints*/
+
+#photoViewer img {
+    display: block;
+    margin: 2em auto;
+}
+
+
+#viewerContent {
+    width: 80%;
+    background-color: white;
+    padding: .5em 1.5em;
+    overflow: auto;
+    margin-bottom: 3em;
+}
+
+#viewerContent p {
+    max-height: 200px;
+    min-height: 100px;
+    font-size:  1.5vmin;
+    margin: 0;
+}
+
+#viewerContent img {
+    margin: 0;
+    margin-bottom: .5em;
+}
+
+#colorSelect {
+    margin-bottom: 1em;
+}
+
+#colorSelect img {
+    width: 5%;
+    max-width: 25%;
+    margin-right: 17%;
+    margin-bottom: 0;
+    display: inline-block;
+    white-space: nowrap;
+    float: left;
+}
+
+#colorSelect .active img {
+    opacity: 0.3;
+}
+
+#viewerContent button {
+    float: right;
+    font-size: 1.5vmin;
+    white-space: nowrap;
+    background-color: rgb(232, 139, 106);
+    color: rgb(252, 235, 229);
+}
+
+/*Extra CSS for JS purposes*/
+
+#test {
+    width: 28%;
+    position: relative;
+    top: 53.5%;
+    right: 15%;
+
+}
+
+#test.is-loading:after {
+    content: url(img/load.gif);
+}
+
+#test img {
+    width: 100%;
+    max-width: 17em;
+    top: 43%;
+    left: 11.5%;
+    margin: 0;
+    padding: 0;
+}
+
+/*RESPONSIVE SLIDER*/
+
+#responsiveSlider {
+    width: 700px;
+    height: 450px;
+    overflow: hidden;
+    margin-bottom: 3em;
+}
+
+#responsiveSlider img {
+    display: block;
+    margin: 2em auto;
+}
+
+#responsiveSlider div img{
+    display: block;
+    margin: 2em auto;
+    width: 630px;
+    height: 300px;
+}

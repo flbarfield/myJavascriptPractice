@@ -1,0 +1,65 @@
+body {
+    background: url(images/travelworthy-backdrop.jpg) no-repeat center;
+    background-size: cover;
+}
+
+/*LOGO*/
+
+aside img {
+    display: inline-block;
+    width: 35%;
+    max-width: 212px;
+    max-height: 167px;
+}
+
+/*MAIN CONTENT BANNER*/
+
+#main {
+    margin-top: 4em;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: .5em 1em 1em 1em;
+}
+
+#main h2 {
+    color: teal;
+}
+
+#main h3 {
+    padding-top: .2em;
+    padding-bottom: .2em;
+    border-style:solid;
+    border-left: none;
+    border-right: none;
+}
+
+#roomRate {
+    text-align: left;
+}
+
+#main h1 {
+    color: gold;
+    font-size: 4em;
+}
+
+#offer {
+    color: gold;
+} 
+
+@media (min-width: 722px) {
+    #main {
+        width: 15em;
+        height: 100%;
+        float: right;
+        margin-right: 10%;
+        margin-top: 0;
+    }
+    
+    aside img {
+        width: 212px;
+        height: 167px;
+        float:left;
+        display: inline; 
+    }
+}

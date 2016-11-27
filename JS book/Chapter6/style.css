@@ -1,0 +1,46 @@
+body {
+    background-color: black; 
+    color: white;
+}
+
+#content {
+    max-width: 320px;
+    max-height: 480px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+#record {
+    width: 30%;
+}
+
+
+p {
+    text-align: center;
+    font-size: 2.7em;
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+label {
+    display: block;
+    margin-bottom: .5em;
+}
+
+input {
+    width: 100%;
+    border-radius: .4em;
+    margin-bottom: 2em;
+    color: black;
+    background-color: lightgray;
+    font-style: bolder;
+}

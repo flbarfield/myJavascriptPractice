@@ -1,0 +1,70 @@
+<!DOCTYPE html/>
+<html>
+    <head>
+        <link href='../normalize.css' rel='stylesheet'/>
+        <link href='../unsemantic-grid-responsive.css' rel='stylesheet'/>
+        <link href='style.css' rel='stylesheet'/>
+    </head>
+    <body>
+        <div id='accordian'>
+            <img src="img/logo.png"/>
+            <button>Classics</button>
+            <p>Content Will Go Here</p>
+            <button>The Flower Series</button>
+            <p>Content Will Go Here</p>
+            <button>Salt to the Sea</button>
+            <p>Content Will Go Here</p>
+        </div>
+        <div id='tabbedPanel'>
+            <img src="img/logo.png"/>
+            <div id='tabContent'>
+                <button id='descriptButton' class='selected' href='#tab1'>Description</button>
+                <button id='ingredientButton' href='#tab2'>Ingredients</button>
+                <button id='deliveryButton' href='#tab3'>Delivery</button>
+                <p id='tab1' class='tabPanelInfo active'>DESCRIPTIONNN!</p>
+                <p id='tab2' class='tabPanelInfo'> INGREDIENTS!!!! </p>
+                <p id='tab3' class='tabPanelInfo'> MMMM DELIVERY </p>
+            </div>
+        </div>
+        <div id='modalWindow'>
+            <img id='img1' src='img/modal-window-button-share.png'/>
+            <img id='img2' src='img/logo.png'/>
+            <img id='img3' src='img/slide-4.jpg'/>
+            <div id='shareOptions'>
+                <img id='img4' src="img/modal-window-message.gif"/>
+                <button>Close</button>
+            </div>
+        </div>
+        <div id='test'></div>
+        <div id='photoViewer'>
+            <img src='img/logo.png'/>
+            <div id='viewerContent' class='grid-container'>
+                <h1>The Flower Series</h1>
+                <img src="img/photo-1.jpg" class='grid-50 mobile-grid-50'/>
+                <p class='grid-50 mobile-grid-50'>Take your tastebuds for a gentle stroll through an English garden filled with Monsieur Pigeon's beautifull fragrant Flower Series marshmellows<br /><br /> With three sweetly floral options: <em>Elderberry, Rose Petal, and Chrysanthemum</em>- all edible and all naturally flavored - they will have you dreaming of butterflies and birdsong in no time. <br /><br /><em>$5.75</em> / 3.5 oz packet</p>
+                <div id='colorSelect' class='grid-100 mobile-grid-100'>
+                    <a href="img/photo-1.jpg" class='thumb active' title='Elderberry mallow'>
+                        <img src='img/thumb-1.jpg'/></a>
+                    <a href="img/photo-2.jpg" class='thumb' title='Rose mallow'>
+                        <img src='img/thumb-2.jpg'/></a>
+                    <a href="img/photo-3.jpg" class='thumb' title='Chrysanthemum mallow'>
+                        <img class='lastThumb' src='img/thumb-3.jpg'/></a>
+                    <button class='grid-20 mobile-grid-20'>BUY NOW</button>
+                </div>
+            </div>
+        </div>
+        <div id='responsiveSlider'>
+            <img src='img/logo.png'/>
+            <div class='slide-group'>
+                <div class='slide slide-1'><img src='img/slide-1.jpg'/></div>
+                <div class='slide slide-2'><img src='img/slide-2.jpg'/></div>
+                <div class='slide slide-3'><img src='img/slide-3.jpg'/></div>
+                <div class='slide slide-4'><img src='img/slide-4.jpg'/></div>
+            </div>
+        </div>
+        <div class='slide-buttons'></div>
+        <script src='../jquery-1.12.3.min.js'></script>
+        <script src='jquery-ui-1.11.4.custom/jquery-ui.min.js'></script>
+        <script src='main.js'></script>
+    </body>
+</html>
