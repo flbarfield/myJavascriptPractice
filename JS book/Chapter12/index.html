@@ -1,0 +1,38 @@
+<!DOCTYPE html/>
+<html>
+    <head>
+        <link href='../normalize.css' rel='stylesheet'/>
+        <link href='../unsemantic-grid-responsive.css' rel='stylesheet'/>
+        <link href='../nouislider.min.css' rel='stylesheet'/>
+        <link href='style.css' rel='stylesheet'/>
+    </head>
+    <body>
+        <div id='dynamic-filtering'>
+            <div class='logo'>
+                <img src='img/creative-folk.png'/>
+            </div>
+            <div class='salary-count'>
+                <label>Min:</label><select>65</select>
+                <label>Max:</label><select>90</select>
+            </div>
+            <div id='slider'></div>
+            <table>
+                <tr>
+                    <th>NAME</th>
+                    <th>HOURLY RATE ($)</th>
+                </tr>
+                <tr>
+                    <td>Camille</td>
+                    <td>80</td>
+                </tr>
+                <tr>
+                    <td>Gordon</td>
+                    <td>75</td>
+                </tr>
+            </table>
+        </div>
+        <script src='../jquery-1.12.3.min.js'></script>
+        <script src='../nouislider.min.js'></script>
+        <script src='main.js'></script>
+    </body>
+</html>

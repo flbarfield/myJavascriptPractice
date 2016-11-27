@@ -1,0 +1,139 @@
+nav {
+    border-bottom-style: solid;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+aside img {
+    display: block;
+    margin: 1em auto;
+    width: 100%;
+    max-width: 225px;
+    
+}
+
+nav ul {
+    display: block;
+    text-align: center;
+    width: 100%;
+    white-space: nowrap;
+    padding: 0;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 1%;
+    font-weight: 900;
+    font-size: .7em;
+}
+
+li:hover {
+    color: darkred;
+}
+
+h1{
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+}
+
+h1 h2 {
+    font-size: .4em;
+    font-weight: 300;
+}
+
+/*LEFT*/
+
+
+#left img {
+    width: 80%;
+    max-width: 270px;
+    display: block;
+    margin: 2em auto 1em auto;
+}
+
+
+#left a {
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+    font-size: .7em;
+    display: block;
+    text-align: center;
+    max-width: 200px;
+}
+
+#left a:hover {
+    color: darkred;
+}
+
+/*MIDDLE*/
+
+#mid {
+    margin-top: 2em;
+}
+
+#mid ul {
+    padding: 0;
+    list-style-type: none;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*RIGHT*/
+
+#right {
+    max-width: 90%;
+    margin: 2em auto;
+}
+
+#right h2 {
+    color: lightseagreen;
+}
+
+@media (min-width: 675px){
+    
+/*    MID panel needs table look */
+    
+    #mid {
+        height: 100%;
+        border-left: ridge;
+        border-right: ridge;
+    }
+    
+    #mid li {
+        padding: 5%;
+        border-bottom-style: ridge;
+        font-size: 100%;
+        font-weight: 600;
+    }
+    
+/*    NAV stuff*/
+    
+    nav aside {
+        display: inline;
+        float: left;
+    }
+    
+    nav ul {
+        display: inline-block;
+        margin-top: -1.5em;
+        text-align: right;
+        font-size: 150%;
+    }
+    
+    nav {
+        margin-bottom: 4em;
+    }
+    
+/*    LEFT*/
+    
+    #left img {
+        width: 45%;
+        max-width: 270px;
+    }
+}

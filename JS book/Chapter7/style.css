@@ -1,0 +1,112 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#content {
+    width: 15em;
+    margin: auto;
+    margin-top: 1.5em;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+/* Items */
+
+ul {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+h2 em {
+    background-color: white;
+    color: black;
+    padding: .3em .6em;
+    border-radius: 5em;
+    font-style: normal;
+    font-size: .6em;
+    font-weight: 800;
+}
+
+li {
+    background-color: orangered;
+    border-style: solid;
+    border-width: thin;
+    border-color: grey;
+    padding: .2em;
+    font-weight: 600;
+}
+
+li:hover {
+    border-color: white;
+    border-width: medium;
+}
+
+/*images*/
+
+img {
+    margin-left: 35%;
+}
+
+li button {
+    background-image: url('images/icon-trash.png');
+    background-position: 50% 47%;
+    width: 2em;
+    height: 1.9em;
+    position: relative;
+    bottom: .1em;
+}
+
+
+li button:hover {
+    background-color: yellow;
+}
+
+/*Add Buttons*/
+
+button {
+    background-color: red;
+    float: right;
+    border-radius: .2em;
+    font-size: .7em;
+    font-weight: 900;
+}
+
+button:hover {
+    background-color: orangered;
+}
+
+#initButton {
+    margin-top: 2em;
+}
+
+#selectionTwo textarea {
+    height: 1.3em;
+    color: black;
+    font-size: .7em;
+    width: 70%;
+}
+
+#selectionTwo {
+    margin-top: 2em;
+    display: none;
+}
+
+/* Special Classes */
+
+.hot {
+    background-color: darkred;
+}
+
+.check {
+    list-style: inside;
+}
