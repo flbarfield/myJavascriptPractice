@@ -26,6 +26,11 @@ function isEven (num) {
 
 /// Bean Counting ///
 
+/*
+  First funct finds only Bs in a string. Second finds inputted letter
+  in an inputted string. Third makes use of the previous function in it's
+  function
+*/
 function countBs (inString) {
   count = 0;
   for (var i = 0; i < inString.length; i++) {
@@ -44,4 +49,8 @@ function countChar (inString, inChar) {
     }
   }
   console.log(count);
+}
+
+function countBsTwo (inString, letter) {
+  countChar(inString, letter);
 }
