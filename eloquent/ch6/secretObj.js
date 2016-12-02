@@ -20,5 +20,3 @@ Object.defineProperty(Vector.prototype, "length", {
     return Math.sqrt(this.numOne * this.numOne + this.numTwo * this.numTwo);
   }
 })
-
-//// Another Cell ////
